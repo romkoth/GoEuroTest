@@ -16,7 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self setCacheSettings];
     return YES;
 }
 
@@ -41,5 +41,12 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
+- (void) setCacheSettings{
+    NSUInteger cacheSizeMemory = 500*1024*1024; // 500 MB
+    NSUInteger cacheSizeDisk = 500*1024*1024; // 500 MB
+    NSString *cacheDir = [[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"Caches"];
+    NSURLCache* cache = [[NSURLCache alloc] initWithMemoryCapacity:cacheSizeMemory diskCapacity:cacheSizeDisk diskPath:cacheDir];
+    [NSURLCache setSharedURLCache:cache];
+    sleep(1);
+}
 @end

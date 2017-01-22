@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		4C0C008E1E2FFEFA005B8091 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C008D1E2FFEFA005B8091 /* main.m */; };
 		4C0C00911E2FFEFA005B8091 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C00901E2FFEFA005B8091 /* AppDelegate.m */; };
-		4C0C00941E2FFEFA005B8091 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C00931E2FFEFA005B8091 /* ViewController.m */; };
 		4C0C00971E2FFEFA005B8091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C00951E2FFEFA005B8091 /* Main.storyboard */; };
 		4C0C00991E2FFEFA005B8091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C00981E2FFEFA005B8091 /* Assets.xcassets */; };
 		4C0C009C1E2FFEFA005B8091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C009A1E2FFEFA005B8091 /* LaunchScreen.storyboard */; };
 		4C0C00A71E2FFEFA005B8091 /* goEuroTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C00A61E2FFEFA005B8091 /* goEuroTestTests.m */; };
 		4C0C00B21E2FFEFA005B8091 /* goEuroTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C00B11E2FFEFA005B8091 /* goEuroTestUITests.m */; };
+		4C73631E1E356253002E1F80 /* TripsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C73631C1E356253002E1F80 /* TripsVC.m */; };
+		4C7363211E356286002E1F80 /* InfoAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7363201E356286002E1F80 /* InfoAlertViewController.m */; };
+		4C7363241E3562AA002E1F80 /* LogoImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7363231E3562AA002E1F80 /* LogoImageView.m */; };
+		4C7363281E3562D3002E1F80 /* TripDescriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7363261E3562D3002E1F80 /* TripDescriptionCell.m */; };
+		4C7363291E3562D3002E1F80 /* TripDescriptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C7363271E3562D3002E1F80 /* TripDescriptionCell.xib */; };
+		4C73632C1E3562FF002E1F80 /* Trip.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C73632B1E3562FF002E1F80 /* Trip.m */; };
+		4C7363311E35633C002E1F80 /* ContentLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C73632E1E35633C002E1F80 /* ContentLoader.m */; };
+		4C7363321E35633C002E1F80 /* SortingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7363301E35633C002E1F80 /* SortingManager.m */; };
+		4C7363351E356370002E1F80 /* NSString+DateFormats.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7363341E356370002E1F80 /* NSString+DateFormats.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +47,6 @@
 		4C0C008D1E2FFEFA005B8091 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4C0C008F1E2FFEFA005B8091 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C0C00901E2FFEFA005B8091 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4C0C00921E2FFEFA005B8091 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4C0C00931E2FFEFA005B8091 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4C0C00961E2FFEFA005B8091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C0C00981E2FFEFA005B8091 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C0C009B1E2FFEFA005B8091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,24 @@
 		4C0C00AD1E2FFEFA005B8091 /* goEuroTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = goEuroTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C0C00B11E2FFEFA005B8091 /* goEuroTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = goEuroTestUITests.m; sourceTree = "<group>"; };
 		4C0C00B31E2FFEFA005B8091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C73631B1E356253002E1F80 /* TripsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TripsVC.h; path = Representation/MainVC/TripsVC.h; sourceTree = "<group>"; };
+		4C73631C1E356253002E1F80 /* TripsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TripsVC.m; path = Representation/MainVC/TripsVC.m; sourceTree = "<group>"; };
+		4C73631D1E356253002E1F80 /* TripsVCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TripsVCConstants.h; path = Representation/MainVC/TripsVCConstants.h; sourceTree = "<group>"; };
+		4C73631F1E356286002E1F80 /* InfoAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoAlertViewController.h; path = Representation/AlertController/InfoAlertViewController.h; sourceTree = "<group>"; };
+		4C7363201E356286002E1F80 /* InfoAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoAlertViewController.m; path = Representation/AlertController/InfoAlertViewController.m; sourceTree = "<group>"; };
+		4C7363221E3562AA002E1F80 /* LogoImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogoImageView.h; path = Representation/View/LogoImageView/LogoImageView.h; sourceTree = "<group>"; };
+		4C7363231E3562AA002E1F80 /* LogoImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogoImageView.m; path = Representation/View/LogoImageView/LogoImageView.m; sourceTree = "<group>"; };
+		4C7363251E3562D3002E1F80 /* TripDescriptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TripDescriptionCell.h; path = Representation/View/TripDescriptionCell/TripDescriptionCell.h; sourceTree = "<group>"; };
+		4C7363261E3562D3002E1F80 /* TripDescriptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TripDescriptionCell.m; path = Representation/View/TripDescriptionCell/TripDescriptionCell.m; sourceTree = "<group>"; };
+		4C7363271E3562D3002E1F80 /* TripDescriptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TripDescriptionCell.xib; path = Representation/View/TripDescriptionCell/TripDescriptionCell.xib; sourceTree = "<group>"; };
+		4C73632A1E3562FF002E1F80 /* Trip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Trip.h; path = Models/Trip.h; sourceTree = "<group>"; };
+		4C73632B1E3562FF002E1F80 /* Trip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Trip.m; path = Models/Trip.m; sourceTree = "<group>"; };
+		4C73632D1E35633C002E1F80 /* ContentLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContentLoader.h; path = Helpers/ContentLoader.h; sourceTree = "<group>"; };
+		4C73632E1E35633C002E1F80 /* ContentLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContentLoader.m; path = Helpers/ContentLoader.m; sourceTree = "<group>"; };
+		4C73632F1E35633C002E1F80 /* SortingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SortingManager.h; path = Helpers/SortingManager.h; sourceTree = "<group>"; };
+		4C7363301E35633C002E1F80 /* SortingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SortingManager.m; path = Helpers/SortingManager.m; sourceTree = "<group>"; };
+		4C7363331E356370002E1F80 /* NSString+DateFormats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+DateFormats.h"; path = "Categories/NSString+DateFormats.h"; sourceTree = "<group>"; };
+		4C7363341E356370002E1F80 /* NSString+DateFormats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+DateFormats.m"; path = "Categories/NSString+DateFormats.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +125,12 @@
 		4C0C008B1E2FFEFA005B8091 /* goEuroTest */ = {
 			isa = PBXGroup;
 			children = (
+				CA5A5E481E3216170049EB24 /* Categories */,
+				CA8B89561E30EACB0002EF2E /* Helpers */,
+				4C0C00C71E300DFC005B8091 /* Models */,
+				4C0C00BF1E30072D005B8091 /* Representation */,
 				4C0C008F1E2FFEFA005B8091 /* AppDelegate.h */,
 				4C0C00901E2FFEFA005B8091 /* AppDelegate.m */,
-				4C0C00921E2FFEFA005B8091 /* ViewController.h */,
-				4C0C00931E2FFEFA005B8091 /* ViewController.m */,
-				4C0C00951E2FFEFA005B8091 /* Main.storyboard */,
-				4C0C00981E2FFEFA005B8091 /* Assets.xcassets */,
-				4C0C009A1E2FFEFA005B8091 /* LaunchScreen.storyboard */,
-				4C0C009D1E2FFEFA005B8091 /* Info.plist */,
 				4C0C008C1E2FFEFA005B8091 /* Supporting Files */,
 			);
 			path = goEuroTest;
@@ -117,6 +139,8 @@
 		4C0C008C1E2FFEFA005B8091 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4C0C009A1E2FFEFA005B8091 /* LaunchScreen.storyboard */,
+				4C0C009D1E2FFEFA005B8091 /* Info.plist */,
 				4C0C008D1E2FFEFA005B8091 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +162,94 @@
 				4C0C00B31E2FFEFA005B8091 /* Info.plist */,
 			);
 			path = goEuroTestUITests;
+			sourceTree = "<group>";
+		};
+		4C0C00BF1E30072D005B8091 /* Representation */ = {
+			isa = PBXGroup;
+			children = (
+				CA5A5E541E329A830049EB24 /* View */,
+				CA5A5E4C1E32577A0049EB24 /* AlertController */,
+				4C0C00C01E300878005B8091 /* MainVC */,
+				4C0C00951E2FFEFA005B8091 /* Main.storyboard */,
+				4C0C00981E2FFEFA005B8091 /* Assets.xcassets */,
+			);
+			name = Representation;
+			sourceTree = "<group>";
+		};
+		4C0C00C01E300878005B8091 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				4C73631B1E356253002E1F80 /* TripsVC.h */,
+				4C73631C1E356253002E1F80 /* TripsVC.m */,
+				4C73631D1E356253002E1F80 /* TripsVCConstants.h */,
+			);
+			name = MainVC;
+			sourceTree = "<group>";
+		};
+		4C0C00C11E3008FF005B8091 /* TripDescriptionCell */ = {
+			isa = PBXGroup;
+			children = (
+				4C7363251E3562D3002E1F80 /* TripDescriptionCell.h */,
+				4C7363261E3562D3002E1F80 /* TripDescriptionCell.m */,
+				4C7363271E3562D3002E1F80 /* TripDescriptionCell.xib */,
+			);
+			name = TripDescriptionCell;
+			sourceTree = "<group>";
+		};
+		4C0C00C71E300DFC005B8091 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4C73632A1E3562FF002E1F80 /* Trip.h */,
+				4C73632B1E3562FF002E1F80 /* Trip.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CA5A5E481E3216170049EB24 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4C7363331E356370002E1F80 /* NSString+DateFormats.h */,
+				4C7363341E356370002E1F80 /* NSString+DateFormats.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		CA5A5E4C1E32577A0049EB24 /* AlertController */ = {
+			isa = PBXGroup;
+			children = (
+				4C73631F1E356286002E1F80 /* InfoAlertViewController.h */,
+				4C7363201E356286002E1F80 /* InfoAlertViewController.m */,
+			);
+			name = AlertController;
+			sourceTree = "<group>";
+		};
+		CA5A5E541E329A830049EB24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C0C00C11E3008FF005B8091 /* TripDescriptionCell */,
+				CA5A5E551E329AA00049EB24 /* LogoImageView */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CA5A5E551E329AA00049EB24 /* LogoImageView */ = {
+			isa = PBXGroup;
+			children = (
+				4C7363221E3562AA002E1F80 /* LogoImageView.h */,
+				4C7363231E3562AA002E1F80 /* LogoImageView.m */,
+			);
+			name = LogoImageView;
+			sourceTree = "<group>";
+		};
+		CA8B89561E30EACB0002EF2E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4C73632D1E35633C002E1F80 /* ContentLoader.h */,
+				4C73632E1E35633C002E1F80 /* ContentLoader.m */,
+				4C73632F1E35633C002E1F80 /* SortingManager.h */,
+				4C7363301E35633C002E1F80 /* SortingManager.m */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +314,7 @@
 		4C0C00811E2FFEFA005B8091 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Roman;
 				TargetAttributes = {
 					4C0C00881E2FFEFA005B8091 = {
@@ -249,6 +361,7 @@
 				4C0C009C1E2FFEFA005B8091 /* LaunchScreen.storyboard in Resources */,
 				4C0C00991E2FFEFA005B8091 /* Assets.xcassets in Resources */,
 				4C0C00971E2FFEFA005B8091 /* Main.storyboard in Resources */,
+				4C7363291E3562D3002E1F80 /* TripDescriptionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +386,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C0C00941E2FFEFA005B8091 /* ViewController.m in Sources */,
+				4C7363311E35633C002E1F80 /* ContentLoader.m in Sources */,
+				4C73632C1E3562FF002E1F80 /* Trip.m in Sources */,
+				4C7363211E356286002E1F80 /* InfoAlertViewController.m in Sources */,
+				4C7363281E3562D3002E1F80 /* TripDescriptionCell.m in Sources */,
+				4C7363321E35633C002E1F80 /* SortingManager.m in Sources */,
 				4C0C00911E2FFEFA005B8091 /* AppDelegate.m in Sources */,
+				4C7363351E356370002E1F80 /* NSString+DateFormats.m in Sources */,
 				4C0C008E1E2FFEFA005B8091 /* main.m in Sources */,
+				4C73631E1E356253002E1F80 /* TripsVC.m in Sources */,
+				4C7363241E3562AA002E1F80 /* LogoImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,8 +463,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -366,7 +488,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -387,8 +509,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -404,7 +528,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -416,7 +540,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = MW2D757SG6;
 				INFOPLIST_FILE = goEuroTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Bobelyuk.goEuroTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,7 +554,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = MW2D757SG6;
 				INFOPLIST_FILE = goEuroTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Bobelyuk.goEuroTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -501,6 +631,7 @@
 				4C0C00B81E2FFEFA005B8091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C0C00B91E2FFEFA005B8091 /* Build configuration list for PBXNativeTarget "goEuroTestTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +640,7 @@
 				4C0C00BB1E2FFEFA005B8091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C0C00BC1E2FFEFA005B8091 /* Build configuration list for PBXNativeTarget "goEuroTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +649,7 @@
 				4C0C00BE1E2FFEFA005B8091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
